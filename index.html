@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf8" />
+  <meta name="viewport" content="width=devicewidth initialscale=1" />
+  <title>my portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- this section sets up the character encoding viewport title and links the stylesheet -->
+</head>
+<body>
+  <header>
+    <!-- this is the top section containing the profile picture name and navigation menu -->
+
+    <img src="profile.png" alt="profile picture" />
+    <h1>jack</h1>
+
+    <nav>
+      <!-- navigation menu with links to different sections of the page -->
+      <ul>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#certifications">certifications</a></li>
+        <li><a href="#about">about me</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- main content area of the page -->
+
+    <section id="experience">
+      <!-- this section lists past projects and experience -->
+      <h2>experience</h2>
+
+      <div class="project">
+        <!-- project 1 details -->
+        <img src="project1.png" alt="project 1" />
+        <p>this game is a unity project where i recreated the maze runner in unity it was my final project for this class it was fun to make and challenging to play which was a good thing for me</p>
+        <a href="https://github.com/JacksonSmithStudent/Maze" target="_blank">view on github</a>
+      </div>
+
+      <div class="project2">
+        <!-- project 2 details -->
+        <img src="project2.png" alt="project 2" />
+        <p>this is the first 2d game i made in this class its a remake of the dino jumping game its a bit rough but thats okay its still fun to play even if its a little choppy</p>
+        <a href="https://github.com/JacksonSmithStudent/MojavaRunner" target="_blank">view on github</a>
+      </div>
+
+      <div class="project2">
+        <!-- project 3 details -->
+        <img src="project3.png" alt="project 3" />
+        <p>this is by far the best map ive ever made in a game im remaking my favorite roblox game bee swarm simulator so i had to recreate the entire map im also working on remaking the codes which is definitely taking a while</p>
+        <a href="https://github.com/JacksonSmithStudent/beeswarms" target="_blank">view on github</a>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <!-- section for listing certifications -->
+      <h2>certifications</h2>
+      <h3>none</h3>
+    </section>
+
+    <section id="about">
+      <!-- section describing personal background and interests -->
+      <h2>about me</h2>
+      <p>my name is jack and i love building games though i struggle with coding however modeling is my strong suit ive been modeling for 11 years and have gotten pretty good at it i love playing video games like minecraft and hydroneer i also 3d print for fun and for a business and i enjoy using crypto to make money ever since i learned how to make games on unity ive been working on projects at home using both unity and unreal engine 5</p>
+    </section>
+
+    <section id="contact">
+      <!-- section for contact information and a contact form -->
+      <h2>contact</h2>
+      <p>email <a href="mailto:jasm076@student.oaisd.org">jasm076@student.oaisd.org</a></p>
+      <form id="contactForm">
+        <!-- input fields for contact form -->
+        <input type="text" id="name" placeholder="your name" required />
+        <input type="email" id="email" placeholder="your email" required />
+        <textarea id="message" placeholder="your message" required></textarea>
+        <button type="submit">send message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- linking the external javascript file -->
+  <script src="script.js"></script>
+</body>
+</html>
